@@ -1,0 +1,140 @@
+/* FONT FACE */
+@font-face {
+  font-family: "PlayfairDisplayRegular";
+  src: url("/fonts/PlayfairDisplay/PlayfairDisplay-Regular.eot");
+  src: url("/fonts/PlayfairDisplay/PlayfairDisplay-Regular.woff") format("woff"),
+    url("/fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PlayfairDisplayMedium";
+  src: url("/fonts/PlayfairDisplay/PlayfairDisplay-Medium.eot");
+  src: url("/fonts/PlayfairDisplay/PlayfairDisplay-Medium.woff") format("woff"),
+    url("/fonts/PlayfairDisplay/PlayfairDisplay-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PlayfairDisplayBold";
+  src: url("/fonts/PlayfairDisplay/PlayfairDisplay-Bold.eot");
+  src: url("/fonts/PlayfairDisplay/PlayfairDisplay-Bold.woff") format("woff"),
+    url("/fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "LibreFranklinMedium";
+  src: url("/fonts/LibreFranklin/LibreFranklin-Medium.eot");
+  src: url("/fonts/LibreFranklin/LibreFranklin-Medium.woff") format("woff"),
+    url("/fonts/LibreFranklin/LibreFranklin-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "RobotoLight";
+  src: url("/fonts/Roboto/Roboto-Light.eot");
+  src: url("/fonts/Roboto/Roboto-Light.woff2") format("woff2"),
+    url("/fonts/Roboto/Roboto-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "RobotoRegular";
+  src: url("/fonts/Roboto/Roboto-Regular.eot");
+  src: url("/fonts/Roboto/Roboto-Regular.woff2") format("woff2"),
+    url("/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "RobotoMedium";
+  src: url("/fonts/Roboto/Roboto-Medium.eot");
+  src: url("/fonts/Roboto/Roboto-Medium.woff2") format("woff2"),
+    url("/fonts/Roboto/Roboto-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "RobotoBold";
+  src: url("/fonts/Roboto/Roboto-Bold.eot");
+  src: url("/fonts/Roboto/Roboto-Bold.woff2") format("woff2"),
+    url("/fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+}
+/* FONT SIZE */
+.fs-10 {
+  font-size: 10px;
+}
+.fs-12 {
+  font-size: 12px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-22 {
+  font-size: 22px;
+}
+.fs-32 {
+  font-size: 32px;
+}
+.fs-50 {
+  font-size: 50px;
+}
+.fs-75 {
+  font-size: 75px;
+}
+/* LINE HEIGHT */
+.lh-20 {
+  line-height: 20px;
+}
+.lh-27 {
+  line-height: 27px;
+}
+.lh-38 {
+  line-height: 38px;
+}
+.lh-44 {
+  line-height: 44px;
+}
+.lh-47 {
+  line-height: 47px;
+}
+.lh-55 {
+  line-height: 55px;
+}
+.lh-60 {
+  line-height: 60px;
+}
+.lh-66 {
+  line-height: 66px;
+}
+.lh-80 {
+  line-height: 80px;
+}
+/* FONT FAMILY */
+.roboto-light {
+  font-family: "RobotoLight";
+}
+.roboto-regular {
+  font-family: "RobotoRegular";
+}
+.roboto-medium {
+  font-family: "RobotoMedium";
+}
+.roboto-bold {
+  font-family: "RobotoBold";
+}
+.pf-regular {
+  font-family: "PlayfairDisplayRegular";
+}
+.pf-medium {
+  font-family: "PlayfairDisplayMedium";
+}
+.pf-bold {
+  font-family: "PlayfairDisplayBold";
+}
+/* TEXT DECORATION */
+.uppercase {
+  text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+.underline {
+  text-decoration: underline;
+}
+.break-word {
+  word-break: break-all;
+}
