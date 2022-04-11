@@ -1,0 +1,74 @@
+:root {
+  --primary-purple: #aa69ff;
+  --primary-blue: #2350a0;
+  --primary-black: #000032;
+  --primary-grey: rgba(146, 146, 149, 0.2);
+  --succeed: rgb(58, 184, 85);
+  --error: rgba(255, 38, 103);
+}
+.bgc-purple {
+  background-color: var(--primary-purple);
+}
+.bgc-blue {
+  background-color: var(--primary-blue);
+}
+.bgc-black {
+  background-color: var(--primary-black);
+}
+.bgc-white {
+  background-color: #fff;
+}
+.bgc-grey {
+  background-color: rgba(146, 146, 149, 0.2);
+}
+.bgc-grey-light {
+  background-color: #f1efef;
+}
+.bgc-grey1 {
+  background-color: #c1c2c4;
+}
+.bgc-grey2 {
+  background-color: #d0d1d3;
+}
+.bgc-grey3 {
+  background-color: #e0e1e1;
+}
+.bgc-grey4 {
+  background-color: #eff0f0;
+}
+.bgc-grey5 {
+  background-color: #f7f7f8;
+}
+.bgc-gradient1 {
+  background: linear-gradient(to right bottom, var(--primary-black), var(--primary-blue));
+}
+.bgc-gradient2 {
+  background: linear-gradient(to bottom, var(--primary-purple), var(--primary-black));
+}
+.bgc-gradient3 {
+  background: linear-gradient(to bottom, var(--primary-black), var(--primary-blue));
+}
+.bgc-gradient4 {
+  background: linear-gradient(180deg, var(--primary-black) 0%, var(--primary-purple) 171.43%);
+}
+.txt-black {
+  color: var(--primary-black);
+}
+.txt-grey {
+  color: #929295;
+}
+.txt-blue {
+  color: var(--primary-blue);
+}
+.txt-hover-blue:hover {
+  color: var(--primary-blue);
+}
+.txt-purple {
+  color: var(--primary-purple);
+}
+.txt-succeed {
+  color: var(--succeed);
+}
+.txt-erroe {
+  color: var(--error);
+}
