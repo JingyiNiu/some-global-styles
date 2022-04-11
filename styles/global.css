@@ -1,0 +1,86 @@
+.bgr-no {
+  background-repeat: no-repeat !important;
+}
+.bgs-cover {
+  background-size: cover !important;
+}
+.bgs-contain {
+  background-size: contain !important;
+}
+.gbp-ct {
+  background-position: center top !important;
+}
+.gbp-rt {
+  background-position: right top !important;
+}
+.position-center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.image-contain {
+  object-fit: contain;
+}
+.image-cover {
+  object-fit: cover;
+}
+.op-1 {
+  opacity: 1;
+}
+.op-02 {
+  opacity: 0.2;
+}
+.h-100percent {
+  height: 100%;
+}
+.h-100vh {
+  height: 100vh;
+}
+.w-120 {
+  width: 120px;
+}
+.w-480 {
+  width: 480px;
+}
+.w-720 {
+  width: 720px;
+}
+.h-2 {
+  height: 2px;
+}
+.h-210 {
+  height: 210px;
+}
+.maxw-30 {
+  max-width: 30px;
+}
+.minw-200 {
+  min-width: 200px;
+}
+.minw-280 {
+  min-width: 280px;
+}
+.maxw-400 {
+  max-width: 400px;
+}
+.maxw-600 {
+  max-width: 600px;
+}
+.maxw-800 {
+  max-width: 800px;
+}
+.maxw-100 {
+  max-width: 100px;
+}
+.maxw-200 {
+  max-width: 200px;
+}
+.minh-100 {
+  min-height: 100px;
+}
+.minh-200 {
+  min-height: 200px;
+}
+.minh-300 {
+  min-height: 300px;
+}
