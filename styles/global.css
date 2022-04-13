@@ -1,17 +1,32 @@
-.bgr-no {
+.bg-np {
   background-repeat: no-repeat !important;
 }
-.bgs-cover {
+.bg-cover {
   background-size: cover !important;
 }
-.bgs-contain {
+.bg-contain {
   background-size: contain !important;
 }
-.gbp-ct {
+.bg-cc {
+  background-position: center center !important;
+}
+.bg-ct {
   background-position: center top !important;
 }
-.gbp-rt {
+.bg-lt {
+  background-position: left top !important;
+}
+.bg-rt {
   background-position: right top !important;
+}
+.bg-cb {
+  background-position: center bottom !important;
+}
+.bg-lb {
+  background-position: left bottom !important;
+}
+.bg-rb {
+  background-position: right bottom !important;
 }
 .position-center {
   top: 50%;
@@ -84,4 +99,29 @@
 }
 .minh-300 {
   min-height: 300px;
+}
+@media (max-width: 1400px) {
+  .w-100p-xxl{
+    width: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  .w-100p-xl{
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .w-100p-lg{
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .w-100p-md{
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .w-100p-sm{
+    width: 100%;
+  }
 }
