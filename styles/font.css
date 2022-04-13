@@ -1,109 +1,86 @@
-/* FONT FACE */
+/* Font Face */
 @font-face {
   font-family: "PlayfairDisplayRegular";
   src: url("/fonts/PlayfairDisplay/PlayfairDisplay-Regular.eot");
-  src: url("/fonts/PlayfairDisplay/PlayfairDisplay-Regular.woff") format("woff"),
-    url("/fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf") format("truetype");
+  src: url("/fonts/PlayfairDisplay/PlayfairDisplay-Regular.woff") format("woff"), url("/fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "PlayfairDisplayMedium";
   src: url("/fonts/PlayfairDisplay/PlayfairDisplay-Medium.eot");
-  src: url("/fonts/PlayfairDisplay/PlayfairDisplay-Medium.woff") format("woff"),
-    url("/fonts/PlayfairDisplay/PlayfairDisplay-Medium.ttf") format("truetype");
+  src: url("/fonts/PlayfairDisplay/PlayfairDisplay-Medium.woff") format("woff"), url("/fonts/PlayfairDisplay/PlayfairDisplay-Medium.ttf") format("truetype");
 }
 @font-face {
   font-family: "PlayfairDisplayBold";
   src: url("/fonts/PlayfairDisplay/PlayfairDisplay-Bold.eot");
-  src: url("/fonts/PlayfairDisplay/PlayfairDisplay-Bold.woff") format("woff"),
-    url("/fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf") format("truetype");
+  src: url("/fonts/PlayfairDisplay/PlayfairDisplay-Bold.woff") format("woff"), url("/fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf") format("truetype");
 }
 @font-face {
   font-family: "LibreFranklinMedium";
   src: url("/fonts/LibreFranklin/LibreFranklin-Medium.eot");
-  src: url("/fonts/LibreFranklin/LibreFranklin-Medium.woff") format("woff"),
-    url("/fonts/LibreFranklin/LibreFranklin-Medium.ttf") format("truetype");
+  src: url("/fonts/LibreFranklin/LibreFranklin-Medium.woff") format("woff"), url("/fonts/LibreFranklin/LibreFranklin-Medium.ttf") format("truetype");
 }
 @font-face {
   font-family: "RobotoLight";
   src: url("/fonts/Roboto/Roboto-Light.eot");
-  src: url("/fonts/Roboto/Roboto-Light.woff2") format("woff2"),
-    url("/fonts/Roboto/Roboto-Light.ttf") format("truetype");
+  src: url("/fonts/Roboto/Roboto-Light.woff2") format("woff2"), url("/fonts/Roboto/Roboto-Light.ttf") format("truetype");
 }
 @font-face {
   font-family: "RobotoRegular";
   src: url("/fonts/Roboto/Roboto-Regular.eot");
-  src: url("/fonts/Roboto/Roboto-Regular.woff2") format("woff2"),
-    url("/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+  src: url("/fonts/Roboto/Roboto-Regular.woff2") format("woff2"), url("/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "RobotoMedium";
   src: url("/fonts/Roboto/Roboto-Medium.eot");
-  src: url("/fonts/Roboto/Roboto-Medium.woff2") format("woff2"),
-    url("/fonts/Roboto/Roboto-Medium.ttf") format("truetype");
+  src: url("/fonts/Roboto/Roboto-Medium.woff2") format("woff2"), url("/fonts/Roboto/Roboto-Medium.ttf") format("truetype");
 }
 @font-face {
   font-family: "RobotoBold";
   src: url("/fonts/Roboto/Roboto-Bold.eot");
-  src: url("/fonts/Roboto/Roboto-Bold.woff2") format("woff2"),
-    url("/fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+  src: url("/fonts/Roboto/Roboto-Bold.woff2") format("woff2"), url("/fonts/Roboto/Roboto-Bold.ttf") format("truetype");
 }
-/* FONT SIZE */
-.fs-10 {
-  font-size: 10px;
-}
-.fs-12 {
-  font-size: 12px;
-}
-.fs-14 {
-  font-size: 14px;
-}
+/* Font Size */
 .fs-16 {
   font-size: 16px;
 }
-.fs-18 {
-  font-size: 18px;
-}
-.fs-22 {
-  font-size: 22px;
+.fs-24 {
+  font-size: 24px;
 }
 .fs-32 {
   font-size: 32px;
 }
-.fs-50 {
-  font-size: 50px;
+.fs-40 {
+  font-size: 40px;
 }
-.fs-75 {
-  font-size: 75px;
+.fs-56 {
+  font-size: 56px;
 }
-/* LINE HEIGHT */
+/* Line Height */
+.lh-1p2{
+  line-height: 1.2;
+}
+.lh-1p5{
+  line-height: 1.5;
+}
+.lh-1p8{
+  line-height: 1.8;
+}
 .lh-20 {
   line-height: 20px;
 }
-.lh-27 {
-  line-height: 27px;
+.lh-24 {
+  line-height: 24px;
 }
-.lh-38 {
-  line-height: 38px;
+.lh-32 {
+  line-height: 32px;
 }
-.lh-44 {
-  line-height: 44px;
+.lh-40 {
+  line-height: 40px;
 }
-.lh-47 {
-  line-height: 47px;
+.lh-56 {
+  line-height: 56px;
 }
-.lh-55 {
-  line-height: 55px;
-}
-.lh-60 {
-  line-height: 60px;
-}
-.lh-66 {
-  line-height: 66px;
-}
-.lh-80 {
-  line-height: 80px;
-}
-/* FONT FAMILY */
+/* Font Family */
 .roboto-light {
   font-family: "RobotoLight";
 }
@@ -125,7 +102,7 @@
 .pf-bold {
   font-family: "PlayfairDisplayBold";
 }
-/* TEXT DECORATION */
+/* Text Transform and Decoration */
 .uppercase {
   text-transform: uppercase;
 }
@@ -137,4 +114,119 @@
 }
 .break-word {
   word-break: break-all;
+}
+@media (max-width: 1400px) {
+  .fs-16-xxl {
+    font-size: 16px;
+  }
+  .fs-24-xxl {
+    font-size: 24px;
+  }
+  .fs-32-xxl {
+    font-size: 32px;
+  }
+  .fs-40-xxl {
+    font-size: 40px;
+  }
+  .lh-1p2-xxl{
+    line-height: 1.2;
+  }
+  .lh-1p5-xxl{
+    line-height: 1.5;
+  }
+  .lh-1p8-xxl{
+    line-height: 1.8;
+  }
+}
+@media (max-width: 1200px) {
+  .fs-16-xl {
+    font-size: 16px;
+  }
+  .fs-24-xl {
+    font-size: 24px;
+  }
+  .fs-32-xl {
+    font-size: 32px;
+  }
+  .fs-40-xl {
+    font-size: 40px;
+  }
+  .lh-1p2-xl{
+    line-height: 1.2;
+  }
+  .lh-1p5-xl{
+    line-height: 1.5;
+  }
+  .lh-1p8-xl{
+    line-height: 1.8;
+  }
+}
+@media (max-width: 992px) {
+  .fs-16-lg {
+    font-size: 16px;
+  }
+  .fs-24-lg {
+    font-size: 24px;
+  }
+  .fs-32-lg {
+    font-size: 32px;
+  }
+  .fs-40-lg {
+    font-size: 40px;
+  }
+  .lh-1p2-lg{
+    line-height: 1.2;
+  }
+  .lh-1p5-lg{
+    line-height: 1.5;
+  }
+  .lh-1p8-lg{
+    line-height: 1.8;
+  }
+}
+@media (max-width: 768px) {
+  .fs-16-md {
+    font-size: 16px;
+  }
+  .fs-24-md {
+    font-size: 24px;
+  }
+  .fs-32-md {
+    font-size: 32px;
+  }
+  .fs-40-md {
+    font-size: 40px;
+  }
+  .lh-1p2-md{
+    line-height: 1.2;
+  }
+  .lh-1p5-md{
+    line-height: 1.5;
+  }
+  .lh-1p8-md{
+    line-height: 1.8;
+  }
+}
+@media (max-width: 576px) {
+  .fs-16-sm {
+    font-size: 16px;
+  }
+  .fs-24-sm {
+    font-size: 24px;
+  }
+  .fs-32-sm {
+    font-size: 32px;
+  }
+  .fs-40-sm {
+    font-size: 40px;
+  }
+  .lh-1p2-sm{
+    line-height: 1.2;
+  }
+  .lh-1p5-sm{
+    line-height: 1.5;
+  }
+  .lh-1p8-sm{
+    line-height: 1.8;
+  }
 }
